@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="assets/css/docs.theme.min.css">
+    <link rel="stylesheet" href="assets/css/owl.carousel.min.css">
+    <link rel="stylesheet" href="assets/css/owl.theme.default.min.css">
+</head>
+<body>
+    <section id="demos">
+        <div class="row">
+          <div class="large-15 columns">
+            <div class="owl-carousel owl-theme">
+              <div class="item">
+                <img src="assets/image/Untitled10_20210406142056.png" >
+              </div>
+              <div class="item">
+                <img src="assets/image/Untitled15_20210406142140.png" >
+              </div>
+              <div class="item">
+                <img src="assets/image/Untitled19_20210406142222.png" >
+              </div>
+              <div class="item">
+                <img src="assets/image/Untitled20_20210406142301.png" >
+              </div>
+              <div class="item">
+                <img src="assets/image/Untitled26_20210406142335.png" >
+              </div>
+              <div class="item">
+                <img src="assets/image/Untitled6_20210406141921.png" >
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    
+</body>
+<script src="assets/js/jquery-3.6.0.min.js"></script>
+<script src="assets/js/owl.carousel.js"></script>
+<script>
+  $(document).ready(function() {
+    var owl = $('.owl-carousel');
+    owl.owlCarousel({
+      margin: 100,
+      nav: true,
+      loop: true,
+      responsive: {
+        1080: {
+          items: 1
+        },
+        1920: {
+          items: 3
+        },
+        1920: {
+          items: 5
+        }
+        1920: {
+          items: 7
+        }
+        1920: {
+          items: 9
+        }
+      }
+    })
+  })
+</script>
+</html>
